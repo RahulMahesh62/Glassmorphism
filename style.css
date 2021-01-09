@@ -1,0 +1,113 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("./space-pink-stars-4k-451083.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	max-width: 1200px;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+
+.container .card {
+	position: relative;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	background: rgba(255, 255, 255, 0.1);
+	overflow: hidden;
+	backdrop-filter: blur(7px);
+}
+
+.card .container .content {
+	padding: 20px;
+	text-align: center;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	width: 300px;
+	height: 350px;
+}
+
+.content h2 {
+	margin: 20px auto;
+	font-family: 'Redressed', cursive;
+	font-size: 1.8em;
+	color: #ffffff;
+	z-index: 1;
+}
+
+.content h3 {
+	margin: 1px auto;
+	margin-bottom: 7px;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	color: rgba(255, 255, 255, 0.08);
+}
+
+#link {
+	text-align: center;
+	padding: 12px 20px;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+	width: 100%;
+	border-radius: 25px;
+	border: none;
+	border-color: #ffffff;
+	border-style: none;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.045);
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+
+#link:hover {
+	transition: 0.7s;
+	background-color: #ffffff;
+	color: #000000;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+}
+
+
+@media(max-width: 350px) {
+	.card {
+		width: 300px;
+		height: 350px;
+	}
+}
