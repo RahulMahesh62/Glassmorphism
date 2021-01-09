@@ -1,2 +1,2 @@
 # Glassmorphism
-A website 
+A website made to visualize Glassmorphism effect
